@@ -203,13 +203,6 @@
     color: rgb(41, 41, 41);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.082);
 }
-.inner-box p{
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-    position: relative;
-}
-
 a{
     color: white;
     text-decoration: none;
