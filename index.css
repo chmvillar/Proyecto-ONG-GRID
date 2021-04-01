@@ -131,14 +131,14 @@
     padding-right: 100px;
     position:relative;
 }
-#personal {
+#informacion {
     color: white;
     text-align: center;
-    padding-top: 140px;
+
     font-size: 85%;
     text-decoration:none;
 }
-#personal p:hover{
+#informacion p:hover{
     color:burlywood;
 }
 
@@ -157,4 +157,60 @@
 #espacio4 {
     background-color: black;
     grid-area: espacio4;
+}
+
+
+/* Logo twitter, instagram, github */
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 16vh;
+}
+.box{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 0;
+}
+.icon-box, .inner-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #c32aa3;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.ib-t{
+    background: #1da1f2;
+}
+.ib-g{
+    background: #333;
+}
+.box:hover .icon-box{
+    transform: translateY(-30px);
+}
+.inner-box{
+    background: #fffeff;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: -1;
+    color: rgb(41, 41, 41);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.082);
+}
+.inner-box p{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
